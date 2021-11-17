@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ns1.md-in-70.bigrockservers.com
+        server: 103.50.160.62
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /home2/propmczf/staging.careerbuddyonline.com/
