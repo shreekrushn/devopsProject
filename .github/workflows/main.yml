@@ -17,4 +17,4 @@ jobs:
         server: 103.50.160.62
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /home2/propmczf/staging.careerbuddyonline.com/
+      #server-dir: /home2/propmczf/staging.careerbuddyonline.com/
